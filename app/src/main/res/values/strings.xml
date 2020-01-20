@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Mvvm Google Git Projects</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_list_fragment">Hi this is ProjectListFragment</string>
+    <string name="show_project_details">Show Project Details</string>
+    <string name="project_fragment">Hi this is ProjectFragment</string>
 </resources>
