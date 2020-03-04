@@ -1,8 +1,10 @@
-package com.sharath.mvvmgooglegitprojects;
+package com.sharath.mvvmgooglegitprojects.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.sharath.mvvmgooglegitprojects.R;
 
 public class MainActivity extends AppCompatActivity {
 
