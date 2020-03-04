@@ -17,6 +17,8 @@ import com.sharath.mvvmgooglegitprojects.R;
 public class ProjectListFragment extends Fragment {
 
 
+    public static final String TAG = "ProjectListFragment";
+
     public ProjectListFragment() {
         // Required empty public constructor
     }
