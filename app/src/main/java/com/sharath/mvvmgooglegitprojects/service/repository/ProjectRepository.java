@@ -34,7 +34,7 @@ public class ProjectRepository {
         return projectRepository;
     }
 
-    public LiveData<List<Project>> getProjectList(String userId) {
+    public MutableLiveData<List<Project>> getProjectList(String userId) {
         final MutableLiveData<List<Project>> data = new MutableLiveData<>();
 
         githubService.getProjectList(userId).enqueue(new Callback<List<Project>>() {
@@ -53,7 +53,7 @@ public class ProjectRepository {
         return data;
     }
 
-    public LiveData<Project> getProjectDetails(String userID, String projectName) {
+    public MutableLiveData<Project> getProjectDetails(String userID, String projectName) {
         final MutableLiveData<Project> data = new MutableLiveData<>();
 
         githubService.getProjectDetails(userID, projectName).enqueue(new Callback<Project>() {
