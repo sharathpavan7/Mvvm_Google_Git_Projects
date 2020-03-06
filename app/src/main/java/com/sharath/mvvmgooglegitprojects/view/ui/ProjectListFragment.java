@@ -1,4 +1,4 @@
-package com.sharath.mvvmgooglegitprojects.view;
+package com.sharath.mvvmgooglegitprojects.view.ui;
 
 
 import android.os.Bundle;
