@@ -50,7 +50,7 @@ public class ProjectListAdapter extends RecyclerView.Adapter<ProjectListAdapter.
     }
 
     public void setProjectList(final List<Project> projectList) {
-        if (projectList == null) {
+        if (this.projectList == null) {
             this.projectList = projectList;
             notifyItemRangeInserted(0, projectList.size());
         } else {
