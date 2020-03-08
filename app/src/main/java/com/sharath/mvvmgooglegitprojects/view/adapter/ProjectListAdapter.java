@@ -21,10 +21,6 @@ public class ProjectListAdapter extends RecyclerView.Adapter<ProjectListAdapter.
 
     private List<Project> projectList;
 
-    public ProjectListAdapter(Context context, List<Project> projectList) {
-        this.projectList = projectList;
-    }
-
     @NonNull
     @Override
     public ProjectListViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
